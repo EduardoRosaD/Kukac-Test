@@ -39,9 +39,9 @@ export default function CepComp() {
         <div className={MainContStyle}>
             <h1 className={TitleStyle}>Atividade 4</h1>
             <form>
-                {cepsNumber.map((cep: any) => {
+                {cepsNumber.map((cep: any, index:number) => {
                     return (
-                        <div>
+                        <div key={index}>
                             <label className='mr-[10px]'>CEP {cep + 1}</label>
                             <input name={cep} onChange={handleCepParams} className={InputStyle}></input>
                         </div>
@@ -50,9 +50,9 @@ export default function CepComp() {
                 )}
             </form>
             <button onClick={(e) => handleCepForm(e)} className={ButtonStyle}>Mostrar Ceps</button>
-            {cepsInfoState.map((cep: CepInfoInterface) => {
+            {cepsInfoState.map((cep: CepInfoInterface, index:number) => {
                 return (
-                    <div>
+                    <div key={index}>
                         <CepInfo cep={cep} />
                     </div>
                 )

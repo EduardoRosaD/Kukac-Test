@@ -1,0 +1,24 @@
+services:
+
+  node:
+    container_name: node
+    build: ./kukac-back-main
+    ports:
+      - 5000:5000
+  next-app:
+    container_name: next-app
+    build: ./kukac-front-main
+    ports:
+      - 3000:3000
+    env_file:
+      - kukac-front-main/.env
+  nginx:
+    container_name: nginx_app
+    build: ./nginx
+    ports:
+      - 8080:80
+  
+    depends_on:
+      - node
+      - next-app
+     
