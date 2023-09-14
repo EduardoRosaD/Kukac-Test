@@ -30,14 +30,14 @@ export default function VeiculoForm() {
     }
     function showCarInput(modalState: string): string {
         if (modalState == "carro") {
-            return "display block"
+            return `flex flex-col items-center justify-center gap-1`
         } else {
             return "hidden"
         }
     }
     function showMotoInput(modalState: string): string {
         if (modalState == "moto") {
-            return "display block"
+            return `flex flex-col items-center justify-center gap-1`
         } else {
             return "hidden"
         }
