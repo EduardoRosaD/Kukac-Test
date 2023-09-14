@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { HttpStatus, Injectable } from '@nestjs/common';
 import { CarroDto } from './dto/carro.dto';
 import { MotoDto } from './dto/moto.dto';
 import { VeiculoDto } from './dto/veiculo.dto';
@@ -9,10 +9,10 @@ export class VeiculosService {
     constructor() { }
 
     saveCarro(carro: CarroDto) {
-        this.saveVeiculo(carro);
+       return this.saveVeiculo(carro);
     }
     saveMoto(moto: MotoDto) {
-        this.saveVeiculo(moto);
+       return this.saveVeiculo(moto);
     }
 
     saveVeiculo(veiculo: CarroDto | MotoDto) {
@@ -29,9 +29,11 @@ export class VeiculosService {
                 arrayVazio.push(veiculo);
             }
             fs.writeFileSync(caminho, JSON.stringify(arrayVazio));
+            return "criado com sucesso"
         } catch (error) {
             console.log(error);
         }
+
     }
 
 }
