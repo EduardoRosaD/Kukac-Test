@@ -14,5 +14,5 @@ export class VeiculoDto implements Veiculo {
     @IsNotEmpty()
     marca: string;
 
-    quantidadePortas?: 1 | 2 | 3 | 4 
+    quantidadePortas? = 1 | 2 | 3 | 4 
 }

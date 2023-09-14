@@ -1,1 +1,28 @@
-[{"modelo":"teste5","anoFabricacao":"teste3333","marca":"teste3","quantidadePortas":66},{"modelo":"teste5","anoFabricacao":"teste3333","marca":"teste3","quantidadePortas":55},{"modelo":"teste88","anoFabricacao":"teste3333","marca":"teste3","quantidadePortas":55},{"modelo":"teste88","anoFabricacao":"teste3333","marca":"teste3","quantidadePortas":55},{"modelo":"teste88","anoFabricacao":"teste3333","marca":"teste3","quantidadePortas":55},{"modelo":"testeVeiculoService","anoFabricacao":"teste3333","marca":"teste3","quantidadePortas":55},{"modelo":"testeVeiculoService","anoFabricacao":"teste3333","marca":"teste3","Rodas":2,"Passageiros":2},{"modelo":"testeVeiculoService","anoFabricacao":"teste3333","marca":"teste3","Rodas":2,"Passageiros":2},{"ceps":["68903-514","64002-330","71680370","71680360","71680350"]},{"quantidadePortas":4,"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":4},{"quantidadePortas":4,"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":4},{"quantidadePortas":4,"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":4},{"quantidadePortas":4,"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2,"numeroPassageiros":1},{"quantidadePortas":4,"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","quantidadePortas":3},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2,"passageiros":2},{"modelo":"ford","anoFabricacao":1990},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","quantidadePortas":3},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","quantidadePortas":3},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","quantidadePortas":3},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","quantidadePortas":3},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2,"passageiros":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2,"passageiros":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2,"passageiros":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod"},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2,"passageiros":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":1,"passageiros":3},{"modelo":"ford","anoFabricacao":1990,"marca":"fod","rodas":2,"passageiros":2}]
+[
+    {
+        "quantidadePortas": 4,
+        "modelo": "teste",
+        "anoFabricacao": 192,
+        "marca": "simmm"
+    },
+    {
+        "rodas": 2,
+        "passageiros": 2,
+        "modelo": "teste",
+        "anoFabricacao": 192,
+        "marca": "simmm"
+    },
+    {
+        "quantidadePortas": 4,
+        "modelo": "teste",
+        "anoFabricacao": 192,
+        "marca": "simmm"
+    },
+    {
+        "rodas": 2,
+        "passageiros": 2,
+        "modelo": "teste",
+        "anoFabricacao": 192,
+        "marca": "simmm"
+    }
+]

@@ -1,23 +1,27 @@
-import { Controller, Get, Param} from '@nestjs/common';
+import { Controller, Get, Param, Query} from '@nestjs/common';
 
-@Controller('palindromo')
+@Controller('palindromos')
 export class PalindromoController {
     constructor() {}
 
     @Get()
-    getPalindromo(@Param('start') start: number, @Param('end') end: number): number[] {
+    getPalindromo(@Query('start') start: string, @Query('end') end: string): number[] {
         const palindromos = [];
-        for (let i = start; i <= end; i++) {
+        const starter = parseInt(start);
+        const ender = parseInt(end);
+        for (let i = starter; i <= ender; i++) {
+            console.log("Palindromo: ", i)
             if (this.isPalindromo(i)) {
+                
                 palindromos.push(i);
             }
         }
         return palindromos;   
     }
 
-    isPalindromo(number: number): boolean {
-        const numberString = number.toString();
-        const numberStringReverse = numberString.split('').reverse().join('');
-        return numberString === numberStringReverse;
+    isPalindromo(stringNumber: string | number): boolean {
+        const number = stringNumber.toString();
+        const reverseNumber = number.split('').reverse().join('');
+        return number === reverseNumber;
     }
 }

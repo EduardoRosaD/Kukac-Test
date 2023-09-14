@@ -17,7 +17,7 @@ export class VeiculosService {
 
     saveVeiculo(veiculo: CarroDto | MotoDto) {
         const fs = require('fs');
-        const caminho = "../kukac-backend/src/veiculos/veiculos.json";
+        const caminho = "../kukac-back-main/src/veiculos/veiculos.json";
         let arrayVazio = [];
         const conteudo = fs.readFileSync(caminho, 'utf8');
         try {

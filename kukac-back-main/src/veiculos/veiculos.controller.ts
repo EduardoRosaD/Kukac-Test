@@ -13,8 +13,8 @@ export class VeiculoController {
         return  this.veiculoService.saveMoto(moto);
     }
     @Post('carro')
-    async saveVeiculo(@Body() veiculo: CarroDto) {
-        return  this.veiculoService.saveCarro(veiculo);
+    async saveVeiculo(@Body() carro: CarroDto) {
+        return  this.veiculoService.saveCarro(carro);
 
     }
 

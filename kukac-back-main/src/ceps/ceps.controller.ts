@@ -6,9 +6,11 @@ import { CepsService } from './ceps.service';
 export class CepsController {
         constructor( private readonly CepsService: CepsService) { }
     @Post()
-   
-    async getCeps(@Body() bceps: string[]) {
-       const ceps = bceps['ceps'];
-        return await  this.CepsService.getCepsInfos(ceps);
+    async getCeps(@Body() ceps: {ceps:string[]}) {
+       try {
+        return await  this.CepsService.getCepsInfos(ceps.ceps);
+       } catch (error) {
+              console.log(error.message)
+       }
     }
 }
